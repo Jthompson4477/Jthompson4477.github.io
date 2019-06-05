@@ -78,7 +78,7 @@ header li{
     display: flex;
     width: 70%;
     height: 70rem;
-    background-image: url("./images/coverphoto.jpg");
+    background-image: url("PurplePear/images/coverphoto.jpg");
     background-size: cover;
     align-items: center;
     justify-content: center;
