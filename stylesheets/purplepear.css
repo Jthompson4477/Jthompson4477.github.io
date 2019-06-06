@@ -111,3 +111,24 @@ h4 {
 
 /* Screen sizes */
 
+@media only screen and (max-width: 750px) {
+    p {
+        margin: 3rem .5rem
+    }
+    .submark {
+        display: none;
+    }
+
+    header ul {
+        float: none;
+        margin: 0 auto;
+    }
+
+    header li {
+        padding: 1rem;
+    }
+
+    header {
+        display: flex;
+    }
+}
