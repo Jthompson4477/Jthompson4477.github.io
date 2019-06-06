@@ -14,14 +14,17 @@ h2 {
     background-color: rgba(85, 5, 131, 0.719)
 }
 
-table {
-    background-color:  rgba(85, 5, 131, 0.719);
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 5px;
-    margin-bottom: 1rem;
-    
+.vendors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.box {
+    background-color:  rgba(85, 5, 131, 0.719);
+    margin-bottom: 1rem;
+    border: rgba(255, 255, 0, 0.4) solid 3px;
+    padding: 1rem;
 }
 
 td {
@@ -34,7 +37,7 @@ td {
     
 }
 
-table a {
+.box a {
     color:  rgba(255, 255, 0, 0.4);
     font-weight: bold;
     font-size: 20px;
