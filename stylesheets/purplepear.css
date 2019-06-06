@@ -134,4 +134,11 @@ h4 {
     header {
         display: flex;
     }
+    .intro {
+        width: 100%;
+    }
+    .logo img {
+        width: 500px;
+        /* overflow: hidden; */
+    }
 }
