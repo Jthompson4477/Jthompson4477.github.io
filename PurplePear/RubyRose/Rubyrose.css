@@ -5,6 +5,7 @@
     text-align: center;
     color: white;
 }
+
 html {
     background-color: black;
 }
@@ -18,12 +19,12 @@ h2 {
 }
 
 h3 {
-    line-height: 2
+    line-height: 2;
 }
 
 .logo {
     width: 100%;
-    height: 16rem;
+    height: auto;
 }
 
 .image-container {
@@ -35,7 +36,7 @@ h3 {
     padding-top: 1rem;
 }
 
-.image-container img {
+.image-container img{
     width: 90%;
     height: 70%;
 }
@@ -45,3 +46,4 @@ h3 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
