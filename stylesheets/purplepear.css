@@ -16,8 +16,13 @@ h2 {
 
 .vendors {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+.boxes  {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem;
 }
 
 .box {
@@ -25,23 +30,32 @@ h2 {
     margin-bottom: 1rem;
     border: rgba(255, 255, 0, 0.4) solid 3px;
     padding: 1rem;
-}
-
-td {
-    color: rgba(255, 255, 0, 0.4);
-    border-width: 3px;
-    border-color:  rgba(255, 255, 0, 0.4);
-    border-collapse: separate;
-    border-style: solid;
-    padding: 5px;
-    
+    width: 90%;
+    display: flex;
+    height: 6rem;
 }
 
 .box a {
     color:  rgba(255, 255, 0, 0.4);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: cursive;
+}
+
+.box .image-container {
+    overflow: hidden;
+    height: 90%;
+    width: 30%;
+}
+
+.box .image-container img{
+    height: 100%;
+}
+
+.box-text {
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -112,6 +126,8 @@ h4 {
     margin: 1rem;
 }
 
+
+
 /* Screen sizes */
 
 @media only screen and (max-width: 750px) {
@@ -141,4 +157,16 @@ h4 {
         width: 500px;
         /* overflow: hidden; */
     }
+}
+
+footer {
+    background-color: white;
+}
+
+footer p {
+    color: black;
+}
+
+i {
+    color:black;
 }
