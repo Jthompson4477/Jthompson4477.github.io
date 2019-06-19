@@ -16,6 +16,7 @@ h2 {
 
 .vendors {
     display: flex;
+
 }
 
 .boxes  {
@@ -56,6 +57,8 @@ h2 {
     width: 70%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -90,20 +93,22 @@ header li{
 
 /* Intro content */
 
-.intro {
-    margin: 0 auto;
+ .intro {
+    /* margin: 0 auto;
     display: flex;
     width: 70%;
     height: 30rem;
     background-image: url("images/coverphoto.jpg");
     background-size: cover;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    width: 100%;
+} 
+
+.intro img {
+    width: 100%;
 }
 
-.logo {
-    position: relative;
-}
 
 p {
     margin: 3rem 10rem;
@@ -156,6 +161,13 @@ h4 {
     .logo img {
         width: 500px;
         /* overflow: hidden; */
+    }
+    .vendors {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .boxes {
+        width: 90%;
     }
 }
 
