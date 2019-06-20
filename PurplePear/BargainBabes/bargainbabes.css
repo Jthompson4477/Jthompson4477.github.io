@@ -20,6 +20,7 @@ h2 {
 
 h3 {
     line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .logo {
@@ -27,12 +28,32 @@ h3 {
     height: auto;
 }
 
+.order{
+    display: flex;
+    height: 3rem;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    color: white;
+    background-color: blue;
+    padding: .25rem;
+}
+
+.order h3 {
+    color: black;
+    font-size: 1rem;
+}
+
 .image-container-long {
     overflow: hidden;
     height: 25rem;
-    width: 13rem;
+    width: 16rem;
     background-color: rgb(81, 8, 99);
-    margin: 1rem;
+    margin-bottom: 1rem;
     padding-top: 1rem;
 }
 

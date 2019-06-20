@@ -45,12 +45,13 @@ h2 {
 
 .box .image-container {
     overflow: hidden;
-    height: 90%;
+    height: 100%;
     width: 30%;
 }
 
 .box .image-container img{
     height: 100%;
+    width: 100%;
 }
 
 .box-text {
@@ -119,7 +120,9 @@ body {
 }
 
 h3 {
+    font-size: 1.5rem;
     margin: 1rem;
+    font-family: Lobster;
 
 }
 
