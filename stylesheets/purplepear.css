@@ -47,6 +47,7 @@ h2 {
     overflow: hidden;
     height: 100%;
     width: 30%;
+    border: none;
 }
 
 .box .image-container img{
@@ -111,6 +112,7 @@ header li{
 }
 
 
+
 p {
     margin: 3rem 10rem;
 }
@@ -123,7 +125,6 @@ h3 {
     font-size: 1.5rem;
     margin: 1rem;
     font-family: Lobster;
-
 }
 
 a {
@@ -132,6 +133,41 @@ a {
 
 h4 {
     margin: 1rem;
+}
+
+.nonlink {
+    color: rgba(255, 255, 0, 0.4);
+}
+
+.image-container {
+    overflow: hidden;
+    height: 25rem;
+    width: 33rem;
+}
+
+.image-container img {
+    height: 100%;
+    width: auto;
+}
+
+#about-us .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    background-color: white;
+}
+
+footer p {
+    color: black;
+}
+
+i {
+    color:white;
+    background-color: blue;
+    border-radius: 15%;
+    padding: .25rem;
 }
 
 
@@ -183,5 +219,8 @@ footer p {
 }
 
 i {
-    color:black;
+    color:white;
+    background-color: blue;
+    border-radius: 15%;
+    padding: .25rem;
 }
