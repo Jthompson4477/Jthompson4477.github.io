@@ -63,7 +63,6 @@ h2 {
     align-items: center;
 }
 
-
 header {
     background-color: white;
     height: 90px;
@@ -150,11 +149,33 @@ h4 {
     width: auto;
 }
 
-#about-us .content{
+.coming-soon {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.coming-soon .box-text {
+    width: 100%;
+}
+
+#about-us .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
+.coming-soon h3, .coming-soon h4 {
+    margin: 0;
+}
+
+
+#about-us h3 {
+    margin: 1
+}
+
 footer {
     background-color: white;
 }
@@ -207,6 +228,16 @@ i {
     }
     .boxes {
         width: 90%;
+    }
+    .image-container{
+        height: 15rem;
+        width: auto;
+    }
+    .coming-soon {
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
     }
 }
 
