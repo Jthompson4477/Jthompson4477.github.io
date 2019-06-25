@@ -27,6 +27,27 @@ h3 {
     height: auto;
 }
 
+.order{
+    display: flex;
+    height: 3rem;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+i {
+    color: white;
+    background-color: blue;
+    padding: .25rem;
+}
+
+.order h3 {
+    color: black;
+    font-size: 1rem;
+}
+
 .image-container {
     overflow: hidden;
     height: 17rem;
